@@ -7,5 +7,5 @@ all =lower+upper+number+symbols
 
 length = 12
 
-password=" ".join(random.sample(all,length))
+password="".join(random.sample(all,length))
 print(password)
