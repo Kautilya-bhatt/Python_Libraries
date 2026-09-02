@@ -9,7 +9,15 @@ Given a list of student marks, write a Python program to calculate and display:
 • Number of students who passed 
 • Number of students who failed '''
 
-student_marks = [85, 92, 28, 65, 90, 55, 30, 88, 95, 60]
+student_marks = []
+
+student_marks.append(int(input("Enter First student Marks : ")))
+student_marks.append(int(input("Enter Second student Marks : ")))
+student_marks.append(int(input("Enter Third student Marks : ")))
+student_marks.append(int(input("Enter Fourth student Marks : ")))
+student_marks.append(int(input("Enter Fifth student Marks : ")))
+student_marks.append(int(input("Enter Sixth student Marks : ")))
+student_marks.append(int(input("Enter Seventh student Marks : ")))
 total_marks=0
 passs=0
 fail=0
@@ -32,12 +40,12 @@ for marks in student_marks:
 
 average_marks=total_marks/len(student_marks) 
   
-print("• Total marks out off 1000  -->",total_marks)   
+print("• Total marks of all students  -->",total_marks)   
 print("• Highest marks -->",highest_marks)
 print("• Lowest marks -->", lowest_marks)
 print("• Number of students who passed -->",passs)
 print("• Number of students who failed -->",fail) 
-print("• Average marks -->",average_marks)
+print("• Average marks -->", round(average_marks,2))
 
 
 

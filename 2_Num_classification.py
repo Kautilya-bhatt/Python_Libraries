@@ -28,10 +28,10 @@ for num in range(1,101):
 print(" •  NO.of Even numbers--> ", even) 
 print(" •  NO.of odd numbers--> ", odd)      
 print(" •  NO.of Multiple of  3 --> ", multiple)      
-print(" •  NO.of prime numbers--> ", prime)                    
+print(" •  NO.of prime numbers--> ", prime)
          
 
-        
+                            
              
 
     
