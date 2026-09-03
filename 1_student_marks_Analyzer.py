@@ -43,8 +43,8 @@ average_marks=total_marks/len(student_marks)
 print("• Total marks of all students  -->",total_marks)   
 print("• Highest marks -->",highest_marks)
 print("• Lowest marks -->", lowest_marks)
-print("• Number of students who passed -->",passs)
-print("• Number of students who failed -->",fail) 
+print("• Number of students who passed -->",passs," Students")
+print("• Number of students who failed -->",fail," Students") 
 print("• Average marks -->", round(average_marks,2))
 
 

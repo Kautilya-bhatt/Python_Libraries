@@ -5,13 +5,13 @@
    • Find the student with the highest marks
    • Calculate average marks ######'''
 
-students={'anshika':{'name':'anshika','marks': 78},
-          'kautilya':{'name':'kautilya','marks': 87},
+students={'chinki':{'name':'chinki','marks': 88},
+          'kautilya':{'name':'kautilya','marks': 90},
           'shaurya':{'name':'shaurya','marks': 42},
           'kartik':{'name':'kartik','marks': 58},
           'ayush':{'name':'ayush','marks': 68}
           }
-highest_marks=students['anshika']
+highest_marks=students['chinki']
 total_marks=0
 search=input("Enter name of student for search : ").lower()
 

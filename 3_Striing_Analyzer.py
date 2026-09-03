@@ -13,6 +13,8 @@ spaces=0
 digit=0
 total_chars=len(text)
 total_words=len(text.split())
+
+print(total_words)
 vowels="AEIOUaeiou"
 consonants="BCDFGHJKLMNPQRSTVWXYZbcdfghjklmnpqrstvwxyz"
 digits="0123456789"

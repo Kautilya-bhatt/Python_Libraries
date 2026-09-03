@@ -33,7 +33,7 @@ for num in list:
     
     
 Average=sum/count        
-        
+print(len(list))
 print("Sum of list --> ",sum)
 print("largest no. --> ",largest)
 print("Smallest no. --> ",lowest)

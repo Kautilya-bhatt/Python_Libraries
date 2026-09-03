@@ -22,15 +22,15 @@ def calculator():
     print("press 5 for exit : ")
 calculator()
 choice=input("Enter your choice 1/2/3/4 : ")
-n1=float(input("Enter a number1: "))
-n2=float(input("Enter a number2 : "))
-
-
 if choice not in  ['1','2','3','4']:
     print ("Invalid choice ")
     
+n1=float(input("Enter a number1: "))
+n2=float(input("Enter a number2 : "))
 
-elif choice == "1":
+    
+
+if choice == "1":
     result=add(n1,n2)
     print("Addition =" ,result)
 
@@ -50,5 +50,8 @@ elif choice == "4":
        
     else:
         print("Zero divison Error")
+
+else:
+    print("No operation perform because of Invalid Choice")
 
 

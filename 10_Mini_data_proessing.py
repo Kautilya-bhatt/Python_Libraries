@@ -15,12 +15,12 @@
 students = [ {'name': 'Amit', 'marks': 78}, 
               {'name': 'Riya', 'marks': 92},
                 {'name': 'Rahul', 'marks': 65},
-                  {'name': 'Neha', 'marks': 38},
+                  {'name': 'Neha', 'marks': 88},
                     {'name': 'Karan', 'marks': 55} ] 
 def process_data(std_list):
-    sum=0
+    total_sum=0
 
-    name=[]
+    names=[]
     mark=[]
     count=0
     passing_marks=40
@@ -28,8 +28,8 @@ def process_data(std_list):
     lowest_score=students[0]
 
     for student in students:
-      name.append(student['name'])
-      sum=sum+student['marks']
+      names.append(student['name'])
+      total_sum+=student['marks']
 
       if student['marks']>highest_score['marks']:
         highest_score=student
@@ -43,8 +43,8 @@ def process_data(std_list):
       if student['marks'] > passing_marks:
         count+=1      
 
-    Average=sum/len(students)
-    print("List of All students ",name)
+    Average=total_sum/len(students)
+    print("List of All students ",names)
     print("Average marks of students is ",Average)
     print("highest scores student is ",highest_score['name'], "scores" ,highest_score['marks'])
     print("lowest scores student is ",lowest_score['name'], "scores" ,lowest_score['marks'])
@@ -53,7 +53,3 @@ def process_data(std_list):
 
 
 process_data(students)
-
-
-    
-
